@@ -1,0 +1,12 @@
+# Сохраняем бинарные файлы ClickOnce без изменений
+*.manifest binary
+*.application binary
+*.deploy binary
+
+# Не трогаем окончания строк в бинарниках
+*.exe binary
+*.dll binary
+*.pdb binary
+
+# Отключаем автоконвертацию текста
+* -text
